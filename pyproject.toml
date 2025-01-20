@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "may-2024-python-core"
+version = "0.1.0"
+description = ""
+authors = ["Vitalii Demchyshyn <demchyshyn.v87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+httpx = "^0.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
